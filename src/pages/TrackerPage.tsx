@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Button, Stack, Title, Divider, Container } from "@mantine/core";
 import { v4 as uuidv4 } from "uuid";
+import AddExpenseModal from "../components/AddExpenseModal";
 
 type Expense = {
   id: string;
@@ -20,6 +21,7 @@ export default function ExpenseTracker() {
         Expense Tracker
       </Title>
       <Button
+     
       
       >Add Expense Item</Button>
 
