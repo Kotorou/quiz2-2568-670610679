@@ -19,7 +19,10 @@ export default function ExpenseTracker() {
       <Title order={2} mb="md">
         Expense Tracker
       </Title>
-      <Button>Add Expense Item</Button>
+      <Button
+      
+      >Add Expense Item</Button>
+
       {/* Type additional AddExpenseModal here. */}
 
       <Divider my="md" />
